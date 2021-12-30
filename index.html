@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex with Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-primary">
+        <nav class="navbar navbar-expand container">
+            <div class="container-fluid w-25">
+                <ul class="navbar-nav align-items-center w-50">
+                    <li class="nav-item"><img class="img-fluid" src="images/icons/logo.png" alt=""></li>
+                    <li class="nav-item"><h1 class="text-white">Idea</h1></li>
+                </ul>
+            </div>
+            <div class="container-fluid">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item"><a class="text-white nav-link" href="">Home</a></li>
+                    <li class="nav-item"><a class="text-white nav-link" href="">About</a></li>
+                    <li class="nav-item"><a class="text-white nav-link" href="">Work</a></li>
+                    <li class="nav-item"><a class="text-white nav-link" href=""><img src="images/icons/profile.png" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="container shadow pt-4 pb-5 my-4 px-4">
+        <h3 class="text-primary pt-1">Top Players</h3>
+        <div class="row row-cols-lg-3 row-cols-md-3  row-cols-2 gy-4 mt-4">
+            <div class="col d-flex align-items-center">
+                <img class="me-2" src="images/players/player-1.png" alt="">
+                <h4>Player-1</h4>
+            </div>
+            <div class="col d-flex align-items-center">
+                <img class="me-2" src="images/players/player-2.png" alt="">
+                <h4>Player-2</h4>
+            </div>
+            <div class="col d-flex align-items-center">
+                <img class="me-2" src="images/players/player-3.png" alt="">
+                <h4>Player-3</h4>
+            </div>
+            <div class="col d-flex align-items-center">
+                <img class="me-2" src="images/players/player-4.png" alt="">
+                <h4>Player-4</h4>
+            </div>
+            <div class="col d-flex align-items-center">
+                <img class="me-2" src="images/players/player-5.png" alt="">
+                <h4>Player-5</h4>
+            </div>
+            <div class="col d-flex align-items-center">
+                <img class="me-2" src="images/players/player-6.png" alt="">
+                <h4>Player-6</h4>
+            </div>
+            <div class="container w-100">
+                <hr class="w-100">
+            </div>
+        </div>
+        <h3 class="text-primary mt-3 mb-5">Top Players</h3>
+        <div class="row row-cols-lg-2 row-cols-md-2 row-cols-sm-1 row-cols-1 gy-4">
+            <div class="col d-flex">
+                <img class="img-fluid me-3" src="images/blogs/blog-1.png" alt="">
+                <div class="card-text">
+                <h3>13 of My Favorite UI/UX Goodies</h3>
+                <p class="text-primary"><span class="text-secondary">By</span> Danny Sapio</p>
+                </div>
+            </div>
+            <div class="col d-flex">
+                <img class="img-fluid me-3" src="images/blogs/blog-2.png" alt="">
+                <div class="card-text">
+                    <h3>UI cheat sheet: list vs grids</h3>
+                    <p class="text-primary"><span class="text-secondary">By</span> Tess Gadd</p>
+                </div>
+            </div>
+            <div class="col d-flex">
+                <img class="img-fluid me-3" src="images/blogs/blog-3.png" alt="">
+                <div class="card-text">
+                    <h3>7 typography tips for interface design</h3>
+                    <p class="text-primary"><span class="text-secondary">By</span> Jeremiah Lam</p>
+                    </div>
+            </div>
+            <div class="col d-flex">
+                <img class="img-fluid me-3" src="images/blogs/blog-4.png" alt="">
+                <div class="card-text">
+                    <h3>Your logo is copied</h3>
+                    <p class="text-primary"><span class="text-secondary">By</span> Ferdinand Vogler</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="container shadow pt-4 pb-5 my-4 px-4">
+        <h3 class="text-primary pt-1 pb-4">Latest Courses</h3>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 g-4">
+            <div class="col rounded shadow">
+                <img class="img-fluid p-2" src="images/courses/course-1.png" alt="...">
+                <div class="card-body">
+                  <h5 class="">React - The Complete Guide 2021</h5>
+                  <p class="text-danger">Reed Krakoff</p>
+                </div>
+              </div>
+            <div class="col rounded shadow">
+                <img class="img-fluid p-2" src="images/courses/course-2.png" alt="...">
+                <div class="card-body">
+                  <h5 class="">Powerpoint 2021 Master Powerpoint Course</h5>
+                  <p class="text-danger">Walter Scott</p>
+                </div>
+              </div>
+            <div class="col rounded shadow">
+                <img class="img-fluid p-2" src="images/courses/course-3.png"  alt="...">
+                <div class="card-body">
+                  <h5 class="">The Complete - JavaScript Course 2021</h5>
+                  <p class="text-danger">Reed Krakoff</p>
+                </div>
+              </div>
+    </section>
+    <!-- script link  -->
+   <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
